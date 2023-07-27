@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="web design - graphic design - ui - ux ">
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;800&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--reset-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--style sheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--media sheet-->
+    <link rel="stylesheet" href="css/media.css">
+    <title>leon</title>
+</head>
+<body>
+
+    <header class="relative">
+        <div class="container header__container  flex align-center js-between ">
+            <img src="images/logo.png" alt="logo:'IO'" class="logo">
+            <nav class="links-wrapper">
+
+                <i class="awesome fa-thin fa-bars clickable menu-btn"></i>
+                
+                <ul class="links links--hidden flex flex-column absolute">
+                    <!---menu-->
+                    <li class="links__item links__item--heading">
+                        <span>menu</span>
+                    </li>
+                    <li class="links__item links__item--active clickable">
+                        <a href="#">services</a>
+                    </li>
+                    <li class="links__item clickable">
+                        <a href="#">portfolio</a>
+                    </li>
+                    <li class="links__item clickable">
+                        <a href="#">about</a>
+                    </li>
+                    <!--concat-->
+                    <li class="links__item links__item--heading">
+                        <span>get in Touch</span>
+                    </li>
+                    <li class="links__item clickable">
+                        <a href="#">contact us</a>
+                    </li>
+                    <!--social media-->
+                    <li class="links__item links__item--heading">
+                        <span>get Social</span>
+                    </li>
+                    <li class="links__item clickable">
+                        <a href="#">behance</a>
+                    </li>
+                    <li class="links__item clickable">
+                        <a href="#">dribble</a>
+                    </li>
+                    <li class="links__item clickable">
+                        <a href="#">twitter</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <article class="main__intro">
+            <h1 class="main__title center">Hello There <span class="last-letter">!</span></h1>
+            <p class="main__description center">
+                We are Leon - Super Creative & Minimal Agency web Template.
+            </p>
+        </article>
+    </main>
+
+    <section class="features">
+        <h2 class="sr-only">features</h2>
+        <div class="container-fluid center flex-wrapper">
+            <article class="feature  flex-wrapper__col">
+                <i class="awesome fa-regular fa-lightbulb"></i>
+                <h3 class="feature__title">Tell Us Your Idea</h3>
+                <p class="feature__description mxw-300 mx-auto">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </article>
+            <article class="feature flex-wrapper__col">
+                <i class="awesome fa-solid fa-filter-circle-xmark"></i>
+                <h3 class="feature__title">We will do the Work</h3>
+                <p class="feature__description mxw-300 mx-auto">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                </p>
+            </article>
+            <article class="feature flex-wrapper__col">
+                <i class="awesome fa-solid fa-earth-europe"></i>
+                <h3 class="feature__title">Your Product Is World</h3>
+                <p class="feature__description mxw-300 mx-auto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container section-header">
+            <h2>services</h2>
+            <p>Don't be busy , be productive</p>
+        </div>
+
+        <div class="services__row container flex js-between">
+                <article class="services_col">
+                    <i class="awesome fa-solid fa-print"></i>                        
+                    <h3>Graphic Design</h3>
+                    <p class="description mxw-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                    </p>
+                </article>
+
+                <article class="services_col">
+                    <i class="awesome fa-solid fa-message"></i>                        
+                    <h3>UI & UX</h3>
+                    <p class="description mxw-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                    </p>
+                </article>
+        
+                <article class="services_col">
+                    <i class="awesome fa-solid fa-pager"></i>                        
+                    <h3>Frontend developer</h3>
+                    <p class="description mxw-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                    </p>
+                </article>
+
+                <article class="services_col">
+                    <i class="awesome fa-solid fa-desktop"></i>                        
+                    <h3>Backend developer</h3>
+                    <p class="description mxw-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                    </p>
+                </article>
+        
+                <div class="services__col services__col--square photo-frame">
+                    <div class="pseudo-clamp"></div>
+                    <picture>
+                        <span class="animated-y"></span>
+                        <span class="animated-x"></span>
+                        <source media="(min-width:600px)" srcset="images/services.jpg">
+                        <img src="images/services.jpg" alt="mount">
+                    </picture>
+                </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container section-header">
+            <h2>portfolio</h2>
+            <p>If you don't be right,it will last forever</p>
+        </div>
+        <div class="portfolio__row container-fluid flex-wrapper">
+            <article class="porject flex-wrapper__col">
+                <img src="images/project-1.webp" alt="project laptop company">
+                <h3>Dell website.</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                </p>
+            </article>
+
+            <article class="porject flex-wrapper__col">
+                <img src="images/project-2.webp" alt="project plants company">
+                <h3>Nature's beauty.</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                </p>
+            </article>
+
+            <article class="porject flex-wrapper__col">
+                <img src="images/project-3.webp" alt="project books store">
+                <h3>Encyclopedia.</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container section-header">
+            <h2>about</h2>
+            <p>Less is more work.</p>
+        </div>
+
+        <div class="container about__row">
+            <div class="about__col about__img photo-frame">
+                <div class="pseudo-clamp"></div>
+                <div class="pseudo-hours"></div>
+                <picture>
+                    <span class="animated-y"></span>
+                    <span class="animated-x"></span>
+                    <img src="images/about.jpg" alt="nature image">
+                </picture>
+            </div>
+            <div class="about__col about__article">
+                <p class="dark-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi non nihil est, delectus deserunt impedit doloribus ex dolores? Provident, nihil excepturi beatae porro similique mollitia natus debitis ab quis atque.
+                </p>
+                <hr>
+                <p class="light-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi non nihil est, delectus deserunt impedit doloribus ex dolores? Provident, nihil excepturi beatae porro similique mollitia natus debitis ab quis atque.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="contact">
+        <div class="container section-header">
+            <h2>contact</h2>
+            <p>we are born to create.</p>
+        </div>
+        <div class="container">
+            <p class="contact__description">
+                Feel free to drop us line at:
+            </p>
+            <a href="#mailto:leonagecy@mail.com?subject='subscrip in leon'" class="contact_mail--link">
+                leonagecy@mail.com
+            </a>
+            <div class="social">
+                <p class="social__text">
+                    Find us on social networks:
+                </p>
+                <p class="social__icons">
+                    <i class="awesome fa-brands fa-facebook-f"></i>
+                    <i class="awesome fa-brands fa-google-plus-g"></i>
+                    <i class="awesome fa-brands fa-twitter"></i>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menu = document.querySelector('.menu-btn'),
+        links = document.querySelector('.links');  
+
+        menu.addEventListener('click' , e =>{
+            links.classList.toggle('links--visible')
+        })
+    </script>
+</body>
+</html>
