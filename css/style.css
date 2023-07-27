@@ -73,6 +73,13 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -o-scroll-behavior: smooth;
+}
+
 /* reset  */
 
 body{
@@ -221,6 +228,7 @@ i{
     font-weight: var(--fw-semi-bold);
     text-align: center;
     color: var(--clr-neutral-dark-12);
+    text-transform: capitalize;
 }
 
 .section-header p {
@@ -228,6 +236,7 @@ i{
     font-size: 1rem;
     text-align: center;
     color:var(--clr-neutral-dark-50);
+    text-transform: capitalize;
 }
 
 .photo-frame{
@@ -568,6 +577,25 @@ header{
     margin-left:4px;
     font-size: 1rem;
     color: var(--clr-secondary);
+}
+
+/************* footer **********/
+
+.main-footer{
+    padding:var(--sm-rem);
+    text-align: center;
+    background: var(--clr-secondary);
+    font-weight: var(--fw-semi-bold);
+}
+
+.main-footer p{
+    color: var(--clr-neutral-light-100);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.main-footer span{
+    color:var(--clr-primary)
 }
 
 
